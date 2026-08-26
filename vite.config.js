@@ -5,23 +5,29 @@ import { resolve, dirname } from "path";
 import { fileURLToPath } from "url";
 
 export default defineConfig({
-  plugins: [react(), tailwindcss(), ""],
-  base: '/shubham-portfolio/',
+  plugins: [react(), tailwindcss()],
+  base: "/",
   resolve: {
     alias: {
       "#components": resolve(
         dirname(fileURLToPath(import.meta.url)),
-        "src/components",
+        "src/components"
       ),
       "#constants": resolve(
         dirname(fileURLToPath(import.meta.url)),
-        "src/constants",
+        "src/constants"
       ),
-      "#store": resolve(dirname(fileURLToPath(import.meta.url)), "src/store"),
-      "#hoc": resolve(dirname(fileURLToPath(import.meta.url)), "src/hoc"),
+      "#store": resolve(
+        dirname(fileURLToPath(import.meta.url)),
+        "src/store"
+      ),
+      "#hoc": resolve(
+        dirname(fileURLToPath(import.meta.url)),
+        "src/hoc"
+      ),
       "#windows": resolve(
         dirname(fileURLToPath(import.meta.url)),
-        "src/windows",
+        "src/windows"
       ),
     },
   },
