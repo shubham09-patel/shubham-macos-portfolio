@@ -9,7 +9,7 @@ import {
   ScreenBlocker,
 } from "#components";
 import gsap from "gsap";
-import { Draggable } from "gsap/draggable";
+import { Draggable } from "gsap/Draggable";
 import useSystemStore from "#store/system";
 
 import {
