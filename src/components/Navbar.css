@@ -1,0 +1,62 @@
+.apple-menu {
+  position: absolute;
+  top: 32px;
+  left: 0;
+  min-width: 220px;
+  cursor: default;
+  font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+  display: flex;
+  flex-direction: column;
+
+  /* Real macOS Glassmorphism Background */
+  background: rgba(255, 255, 255, 0.45);
+  backdrop-filter: blur(25px) saturate(190%);
+  -webkit-backdrop-filter: blur(25px) saturate(190%);
+
+  /* Thin Translucent Border & macOS Shadow */
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15), 
+              0 0 0 1px rgba(0, 0, 0, 0.05);
+
+  border-radius: 8px;
+  padding: 5px;
+
+  color: rgba(0, 0, 0, 0.85);
+  font-size: 13px;
+  font-weight: 400;
+
+  z-index: 9999;
+  -webkit-font-smoothing: antialiased;
+}
+
+.apple-menu li {
+  width: 100%;
+  box-sizing: border-box;
+
+  padding: 3px 10px;
+  min-height: 22px;
+  border-radius: 4px;
+
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 8px;
+
+  cursor: default;
+  white-space: nowrap;
+  transition: background 0.1s ease, color 0.1s ease;
+}
+
+/* Authentic macOS Accent Selection State */
+.apple-menu li:hover {
+  background: #007aff;
+  color: #ffffff;
+}
+
+/* Optional Divider Line for Submenus */
+.apple-menu .divider {
+  height: 1px;
+  background: rgba(0, 0, 0, 0.1);
+  margin: 4px 0;
+}

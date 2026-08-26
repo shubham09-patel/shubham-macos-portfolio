@@ -1,0 +1,65 @@
+.boot-screen {
+  position: fixed;
+  inset: 0;
+  background: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+
+.apple-logo {
+  width: 90px;
+  margin-bottom: 30px;
+  animation: fadeIn 1.2s ease-in-out;
+}
+
+.loading-bar {
+  width: 160px;
+  height: 4px;
+  background: #333;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.loading-progress {
+  height: 100%;
+  width: 0;
+  background: #ddd;
+  animation: load 2.5s ease-in-out forwards;
+}
+
+@keyframes load {
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.boot-screen {
+  animation: fadeOut 0.4s ease-in-out forwards;
+  animation-delay: 2.5s;
+}
+
+@keyframes fadeOut {
+  to {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+@keyframes lockFadeIn {
+  to {
+    opacity: 1;
+  }
+}
