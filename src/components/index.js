@@ -1,10 +1,11 @@
-import Navbar from "#components/Navbar";
-import Welcome from "#components/Welcome";
-import Dock from "#components/Dock";
-import ClickSpark from "#components/ClickSpark";
-import Terminal from "#windows/Terminal";
+import Navbar from "./Navbar";
+import Welcome from "./Welcome.jsx"; // Relative path with explicit extension
+import Dock from "./Dock";
+import ClickSpark from "./ClickSpark";
+import Terminal from "../windows/Terminal"; // Ya "#windows/Terminal"
 import WindowControls from "./WindowControls";
 import ScreenBlocker from "./ScreenBlocker";
+
 export {
   Navbar,
   Welcome,
