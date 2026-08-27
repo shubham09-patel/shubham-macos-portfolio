@@ -1,5 +1,5 @@
 import Navbar from "./Navbar";
-import Welcome from "./Welcome.jsx"; // Relative path with explicit extension
+import Welcome from "./welcome"; // Relative path with explicit extension
 import Dock from "./Dock";
 import ClickSpark from "./ClickSpark";
 import Terminal from "../windows/Terminal"; // Ya "#windows/Terminal"
