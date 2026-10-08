@@ -292,7 +292,7 @@ const PROJECTS = {
       name: "AI Voice Recruiter",
       icon: `${BASE}images/folder.png`,
       kind: "folder",
-      windowPosition: "top-[5vh] left-5",
+      windowPosition: "top-8 left-6",
       children: [
         {
           id: 1,
@@ -334,7 +334,7 @@ const PROJECTS = {
       name: "PDF to MCQ Generator",
       icon: `${BASE}images/folder.png`,
       kind: "folder",
-      windowPosition: "top-[18vh] left-7",
+      windowPosition: "top-[40rem] left-40",
       children: [
         {
           id: 1,
@@ -376,7 +376,7 @@ const PROJECTS = {
       name: "Taskflow App",
       icon: `${BASE}images/folder.png`,
       kind: "folder",
-      windowPosition: "top-[42vh] left-5",
+      windowPosition: "top-56 left-6",
       children: [
         {
           id: 1,
@@ -411,14 +411,14 @@ const PROJECTS = {
       ],
     },
 
-    // ▶ 4. ANiiMER Studio Folder
+   
     // ▶ 4. ANiiMER Studio Folder
 {
   id: "4",
   name: "ANiiMER Studio",
   icon: `${BASE}images/folder.png`,
   kind: "folder",
-  windowPosition: "top-[64vh] left-5",
+  windowPosition: "top-[44rem] left-6",
   children: [
     {
       id: 1,
@@ -455,6 +455,181 @@ const PROJECTS = {
     },
   ],
 },
+    // ▶ 5. NEXtUS
+    {
+      id: "5",
+      name: "NEXtUS",
+      icon: `${BASE}images/folder.png`,
+      kind: "folder",
+      windowPosition: "top-[26rem] left-6",
+      children: [
+        {
+          id: 1,
+          name: "Overview.txt",
+          icon: `${BASE}images/txt.png`,
+          kind: "file",
+          fileType: "txt",
+          subtitle: "NEXtUS — AI-Powered Learning & Technical Interview Platform",
+          description: [
+            "Built a high-performance Express & PostgreSQL backend using Prisma ORM to power an AI tutoring platform.",
+            "Integrated Google Gemini 2.5 Flash API to deliver automated code debugging, polyglot conversion, and a dynamic AI Mock Interviewer with tier-based difficulty scaling.",
+            "Developed custom security, rate-limiting, and JWT authentication middleware to enforce daily plan quotas.",
+            "Tech Stack: Node.js, Express.js, PostgreSQL, Prisma ORM, Google Gemini 2.5 Flash API, JWT, Helmet, CORS",
+          ],
+          position: "top-5 left-5",
+        },
+        {
+          id: 2,
+          name: "Live Demo",
+          icon: `${BASE}images/safari.png`,
+          kind: "file",
+          fileType: "url",
+          href: "https://github.com/shubham09-patel/NEXtUS",
+          position: "top-5 left-44",
+        },
+        {
+          id: 3,
+          name: "GitHub Repo",
+          icon: `${BASE}images/GitHub-Logo.wine.svg`,
+          kind: "file",
+          fileType: "url",
+          href: "https://github.com/shubham09-patel/NEXtUS",
+          position: "top-5 left-[22rem]",
+        },
+      ],
+    },
+
+    // ▶ 6. SwiftBite
+    {
+      id: "6",
+      name: "SwiftBite",
+      icon: `${BASE}images/folder.png`,
+      kind: "folder",
+      windowPosition: "top-[20rem] left-6",
+      children: [
+        {
+          id: 1,
+          name: "Overview.txt",
+          icon: `${BASE}images/txt.png`,
+          kind: "file",
+          fileType: "txt",
+          subtitle: "SwiftBite — Real-Time Food Delivery & Tracking iOS App",
+          description: [
+            "Native iOS food delivery and real-time tracking application built with SwiftUI, MapKit, and CoreLocation.",
+            "Integrates LiveActivity and SwiftData for persistent state and real-time updates following MVVM architecture.",
+            "Tech Stack: SwiftUI, MapKit, CoreLocation, LiveActivity, SwiftData, MVVM",
+          ],
+          position: "top-5 left-5",
+        },
+        {
+          id: 2,
+          name: "Live Video Demo",
+          icon: `${BASE}images/safari.png`,
+          kind: "file",
+          fileType: "url",
+          href: "https://www.linkedin.com/feed/update/urn:li:activity:7508278245121880064/",
+          position: "top-5 left-44",
+        },
+        {
+          id: 3,
+          name: "GitHub Repo",
+          icon: `${BASE}images/GitHub-Logo.wine.svg`,
+          kind: "file",
+          fileType: "url",
+          href: "https://github.com/shubham09-patel/SwiftBite",
+          position: "top-5 left-[22rem]",
+        },
+      ],
+    },
+
+    // ▶ 7. InspoBox
+    {
+      id: "7",
+      name: "InspoBox",
+      icon: `${BASE}images/folder.png`,
+      kind: "folder",
+      windowPosition: "top-[10rem] left-6",
+      children: [
+        {
+          id: 1,
+          name: "Overview.txt",
+          icon: `${BASE}images/txt.png`,
+          kind: "file",
+          fileType: "txt",
+          subtitle: "InspoBox — macOS Reference & Production Manager for Animators",
+          description: [
+            "Built a menu bar and desktop macOS app to collect images, videos, and Pinterest/Instagram links via paste and drag-and-drop, with a masonry grid, genre/tag filters, and search, using local-first storage (JSON + filesystem).",
+            "Implemented Open Graph scraping for pin images, AVFoundation video thumbnails, and an animation production tracker with phases, linked references, and deadline notifications.",
+            "Tech Stack: SwiftUI, AppKit, AVFoundation, UserNotifications, Combine",
+          ],
+          position: "top-5 left-5",
+        },
+        {
+          id: 2,
+          name: "Live Demo",
+          icon: `${BASE}images/safari.png`,
+          kind: "file",
+          fileType: "url",
+          href: "https://github.com/shubham09-patel/InspoBox",
+          position: "top-5 left-44",
+        },
+        {
+          id: 3,
+          name: "GitHub Repo",
+          icon: `${BASE}images/GitHub-Logo.wine.svg`,
+          kind: "file",
+          fileType: "url",
+          href: "https://github.com/shubham09-patel/InspoBox",
+          position: "top-5 left-[22rem]",
+        },
+      ],
+    },
+
+    // ▶ 8. DayLedger
+    {
+      id: "8",
+      name: "DayLedger",
+      icon: `${BASE}images/folder.png`,
+      kind: "folder",
+      windowPosition: "top-[2rem] left-40",
+      children: [
+        {
+          id: 1,
+          name: "Overview.txt",
+          icon: `${BASE}images/txt.png`,
+          kind: "file",
+          fileType: "txt",
+          subtitle: "DayLedger — macOS Menu Bar Productivity & Task Tracker",
+          description: [
+            "A native macOS menu bar task management application built to seamlessly track daily developer tasks.",
+            "Automatically carries pending tasks over to next day's targets and provides interactive progress visualizers (like LeetCode-style contribution activity charts).",
+            "Available as a standalone .dmg installer for macOS.",
+            "Tech Stack: Swift, SwiftUI, AppKit, SwiftData",
+          ],
+          position: "top-5 left-5",
+        },
+        {
+          id: 2,
+          name: "Download .DMG",
+          icon: `${BASE}images/safari.png`,
+          kind: "file",
+          fileType: "url",
+          href: "https://github.com/shubham09-patel/DayLedger/releases",
+          position: "top-5 left-44",
+        },
+        {
+          id: 3,
+          name: "GitHub Repo",
+          icon: `${BASE}images/GitHub-Logo.wine.svg`,
+          kind: "file",
+          fileType: "url",
+          href: "https://github.com/shubham09-patel/DayLedger",
+          position: "top-5 left-[22rem]",
+        },
+      ],
+    }, 
+
+
   ],
 };
 
